@@ -1,0 +1,19 @@
+Commands for testing the python files - 
+
+First we have to go to the modules file, open command terminal and type the command - 
+- pylint db.py
+- pylint graph.py
+- pylint loading.py
+- pylint migration.py
+
+Then we have to go to the service file, open command terminal and type the command -
+- pylint __init__.py
+- pylint common.py
+- pylint --disable=W0212,C0301 model.py
+- pylint security.py
+
+Last we have to go to the tools file, open command terminal and type the command -
+- pylint appdirs.py
+- pylint barcode.py
+- pylint cache.py
+- pylint cloc.py
